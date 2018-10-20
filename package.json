@@ -1,10 +1,10 @@
 {
   "name": "gae-env",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.1",
+  "description": "Console-visible environment variables stored in Cloud Datastore, for Google Appengine projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "start": "node dist/index.js",
     "build": "tsc",
     "test": "mocha -r ts-node/register test/**/test.ts",
     "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.ts -- -R spec"
@@ -12,14 +12,22 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/KobbyMmo/node-gae-env.git"
   },
-  "keywords": [],
-  "author": "Obed Amoasi <obedamoasi@gmail.com>",
+  "keywords": [
+    "google appengine",
+    "environment variable",
+    "gae",
+    "env"
+  ],
+  "author": "Obed Amoasi <obedamoasi@gmail.com> (http://obedamoasi.com)",
+  "contributors": [
+    "Prince Odame <opodame@gmail.com> (https://princeodame.com)"
+  ],
   "bugs": {
-    "url": ""
+    "url": "https://github.com/KobbyMmo/node-gae-env/issues"
   },
-  "homepage": "",
+  "homepage": "https://github.com/KobbyMmo/node-gae-env#readme",
   "devDependencies": {
     "@types/chai": "^4.1.4",
     "@types/mocha": "^5.2.4",
